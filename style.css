@@ -1,0 +1,51 @@
+.animasi {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 10s;
+  padding: 5px;
+  color: white;
+}
+
+@keyframes example {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+h1 {
+  color: rgb(149, 89, 11);
+}
+
+p {
+  font-family: "Croissant One", cursive;
+  color: blue;
+}
+
+b {
+  color: black;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 20px;
+  background-color: aqua;
+  color: blue;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: rgb(254, 163, 44);
+  color: white;
+  cursor: pointer;
+}
